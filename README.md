@@ -1,16 +1,47 @@
-# React + Vite
+# CampusConnect
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+CampusConnect is a student productivity dashboard built using React.js.
 
-Currently, two official plugins are available:
+It helps students manage their academic tasks, courses, attendance, study sessions, and notes from one simple dashboard.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Dashboard with dynamic statistics
+- Task management
+- Task deadlines
+- Course and attendance management
+- Study Planner
+- Notes management
+- Dark and Light mode
+- Data persistence using localStorage
+- Responsive design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the ESLint configuration
+- React.js
+- JavaScript
+- HTML
+- CSS
+- Vite
+- Browser localStorage
+- Git & GitHub
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Structure
+
+```text
+CampusConnect
+│
+├── public
+├── src
+│   ├── components
+│   │   ├── Tasks.jsx
+│   │   ├── Courses.jsx
+│   │   ├── Planner.jsx
+│   │   └── Notes.jsx
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   └── index.css
+│
+├── package.json
+└── README.md
